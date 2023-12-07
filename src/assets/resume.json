@@ -1,10 +1,12 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Ezequiel Rindello",
+    "label": "Web Developer",
     "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
+    "linkedin": "linkedin",
+    "git": "github.io",
+    "email": "rindelloezequiel@gmail.com",
+    "phone": "+54  9 341 2793916",
     "url": "https://johndoe.com",
     "summary": "A summary of John Doe…",
     "location": {

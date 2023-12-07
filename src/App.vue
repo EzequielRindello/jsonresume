@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <DynamicResume :metaData="ResumeData" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DynamicResume from "./DynamicResume.vue";
+import JSONData from "./assets/resume.json";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    DynamicResume,
+  },
+  data() {
+    return {
+      ResumeData: JSONData,
+    };
+  },
+};
 </script>
 
 <style>
